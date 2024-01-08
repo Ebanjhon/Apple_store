@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+
+.navbar-apple nav{
+    background-color: #c9c9c9;/* màu nền nav */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Định dạng cho phần tử chứa thông tin bản quyền */
+.copyright {
+  font-size: 14px;
+}
+
+.col .card {
+height: 450px;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 10px; /* Độ cong 10px, bạn có thể điều chỉnh giá trị này theo ý muốn */
+}
+
+.btn-product {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-product .btn{
+    width: 45%;
+    height: 20%;
+}
+
+/* btn chi tiết sp*/
+.btn-product a:first-child {
+    background-color: #0073d8;
+    border; 0px #c90009;
+    color: white;
+}
+
+/* btn them vào giỏ hàng sp*/
+.btn-product a:last-child {
+    background-color: #c90009;
+    border; 0px #c90009;
+    color: white;
+}
+
+.img-product {
+    height: 250px;
+    width: 250px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: grid;
+    place-items: center;
+}
+
+.img-product img {
+    width: 80%;
+    height: auto;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body .navbar-apple {
+    position: fixed;
+    top: 0;     /* Đặt div ở đầu trang */
+    left: 0;    /* Đảm bảo div nằm ở cạnh trái của màn hình */
+    width: 100%; /* Đặt chiều rộng của div bằng với chiều rộng của màn hình */
+    z-index: 100;
+}
+
+

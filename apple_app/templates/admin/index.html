@@ -1,0 +1,16 @@
+{% extends "admin/master.html" %}
+
+{% block body %}
+    {% if current_user.is_authenticated %}
+        <h1>hi {{ current_user.name }}</h1>
+        <a href="/" style="background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;">Back Home</a>
+    {% else %}
+        {% include "admin/login.html" %}
+    {% endif %}
+{% endblock %}
